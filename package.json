@@ -1,0 +1,61 @@
+{
+  "name": "Aplikasi-Pengajuan-Cuti",
+  "version": "1.4.2",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.9.1",
+    "jw-paginate": "^1.0.4",
+    "moment": "^2.29.1",
+    "sweetalert2": "^10.15.5",
+    "vue": "^2.6.12",
+    "vue-google-login": "^2.0.5",
+    "vue-google-signin-button": "^1.0.4",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.4.6",
+    "vuex": "^3.6.2",
+    "vuex-router-sync": "^5.0.0",
+    "firebase": "^8.3.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.17.4",
+    "sass-loader": "^7.2.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

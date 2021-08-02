@@ -1,0 +1,173 @@
+/* Start style of header and footer */
+
+.account-title {
+    font-size: 14px;
+    /* padding: 8px 0px 0px 12px; */
+    text-align: left;
+    color: white
+}
+
+.toolbar-title {
+    margin: 20px 0 0 6px;
+    font-size: 24px;
+}
+
+.v-toolbar {
+    flex: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* End style of header and footer */
+.background-login {
+    background-image: url('./../Background.jpg');
+    background-size: cover;
+}
+
+.cover-login {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-text {
+    color: white;
+}
+
+.btn-pad {
+    margin: 0 5px 5px 0;
+}
+
+.btn-form {
+    margin: 0 8px 5px 5px;
+}
+
+.header-dashboard {
+    padding: 0 0 0 5px;
+}
+
+.flex-top {
+    padding: 5px 0 5px 0;
+}
+
+.card-layout {
+    padding: 5px;
+}
+
+.card-dash {
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.header-pr {
+    padding: 0 0 0 5px;
+}
+
+.main-layout {
+    background-color: #00008b;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sub-main-header {
+    margin: 2px 0 5px 5px;
+}
+
+.sub-main-layout {
+    margin: 2px 10px 10px 10px;
+    background-color: #f2f3f8;
+    border-radius: 8px;
+    height: auto;
+}
+
+.sub-header {
+    margin: 2px 0 8px 8px;
+}
+
+.sub-layout {
+    height: auto;
+}
+
+.list-card-layout {
+    margin: 2px 0 10px 0;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+/* Start of Procurement Cycle Time Style */
+
+.black-text#inquiry-name {
+    color: black;
+    font-size: 11px;
+}
+
+li#status-inquiry {
+    width: 3em;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 2em;
+    background: dodgerblue;
+    margin: 0 1em;
+    display: inline-block;
+    position: relative;
+    border-width: medium;
+    border-color: black;
+}
+
+li#days {
+    width: 6em;
+    height: 6em;
+    text-align: center;
+    line-height: 6em;
+    border-radius: 3em;
+    background: dodgerblue;
+    margin: 0 1em;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+li#status-inquiry::before {
+    content: '';
+    position: absolute;
+    top: 1.5em;
+    left: -3em;
+    width: 3em;
+    height: .2em;
+    background: dodgerblue;
+}
+
+li#days::before {
+    content: '';
+    position: absolute;
+    top: 2.9em;
+    left: -4em;
+    width: 4em;
+    height: .2em;
+    background: dodgerblue;
+}
+
+li#days:first-child::before,
+li#status-inquiry:first-child::before {
+    display: none;
+}
+
+.active {
+    background: dodgerblue;
+}
+
+/* .active~li#days,
+.active~li#status-inquiry {
+    background: lightblue;
+}
+
+.active~li#days::before,
+.active~li#status-inquiry::before {
+    background: lightblue;
+} */
+
+/* End of Procurement Cycle Time Style */
